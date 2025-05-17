@@ -39,6 +39,7 @@ code --add-mcp '{"name":"kubernetes","command":"npx","args":["kubernetes-mcp-ser
 1. Apply the following command to get started
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/chamodshehanka/talk2-k8s/refs/heads/main/bwai-manifests.yaml
+```
 2. Complete the challenge by using the kubectl-ai
 3. Validate the challenge by running the following command
 ```bash
