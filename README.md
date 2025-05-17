@@ -28,7 +28,7 @@ kubectl-ai --model gemini-2.5-flash-preview-04-17
 ```
 ### Additional Tips
 
-Create a [Kubernetes MCP server](https://github.com/manusa/kubernetes-mcp-server) (Optional)
+Add a [Kubernetes MCP server](https://github.com/manusa/kubernetes-mcp-server) (Optional)
 
 ```bash
 code --add-mcp '{"name":"kubernetes","command":"npx","args":["kubernetes-mcp-server@latest"]}'
