@@ -1,4 +1,4 @@
-# Build AI with Gemini: Let's talk to your cluster - LLM Agents powered Kubernetes MCP Server 
+# Build with AI with Gemini: Let's talk to your cluster - LLM Agents powered Kubernetes MCP Server 
 
 ## Resources
 - [Cloud Credits](https://trygcp.dev/e/build-ai-SRIC01)
@@ -28,19 +28,17 @@ kubectl-ai --model gemini-2.5-flash-preview-04-17
 ```
 ### Additional Tips
 
-Create a Kubernetes MCP server (Optional)
+Create a [Kubernetes MCP server](https://github.com/manusa/kubernetes-mcp-server) (Optional)
 
 ```bash
-
-https://github.com/manusa/kubernetes-mcp-server
-```
 code --add-mcp '{"name":"kubernetes","command":"npx","args":["kubernetes-mcp-server@latest"]}'
+
 ```
 
 ## Talk to Cluster Challenge
 1. Apply the following command to get started
 ```bash
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/chamodshehanka/talk2-k8s/refs/heads/main/bwai-manifests.yaml
 2. Complete the challenge by using the kubectl-ai
 3. Validate the challenge by running the following command
 ```bash
