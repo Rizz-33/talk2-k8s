@@ -47,3 +47,6 @@ kubectl apply -f https://raw.githubusercontent.com/chamodshehanka/talk2-k8s/refs
 chmod +x ./validate.sh
 ./validate.sh
 ```
+
+
+Submission Link: https://forms.gle/FdQaVMad1MszTzkM8
