@@ -5,6 +5,7 @@
 - [GCP Console](https://console.cloud.google.com/)
 
 ## Pre Requisites
+- [GCloud CLI] (https://cloud.google.com/sdk/docs/install)
 - Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - Kubernetes cluster running 
 - Install [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
